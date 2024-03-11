@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table, td, th {  
+  text-align: center;
+  font-weight: 800;
+  padding: 2px;
+  font-size: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border : none;
+}
+table tr.title-row {
+  background-color: #1e2024;
+  color: white;
+}
+table tr.player-1 {
+  background-color: #8ea9db;
+  color: #1e2024;
+}
+table tr.player-2 {
+  background-color: #F6FDC3;
+  color: #1e2024;
+}
+
+table tr.heading-row {
+  background-color: #de9a26;
+  color: white;
+}
+table tr.title-row th {
+  text-align: center;
+}
+.widget-title {
+  font-size: 1.3rem;
+}
+.player-name-cell {
+  font-size: 1.2rem;
+}
+
+.bg-light {
+  background-color: #8ea9db;
+  color: #1e2024;
+}
+
+.bg-yellow {
+  background-color: #ffbf00;
+  color: #1e2024;
+}
+
+.bg-black {
+  background-color: rgba(30,32,36,0.85);
+  color: #fff;
+}
+.bg-grey {
+  background-color: rgba(67,67,67,0.9);;
+  color: #fff;
+}
+
+.label-cell {
+  width: 15%;
+}
+.number-cell {
+  width: 5%;
+}
+
+.text-yellow {
+  color: #ffbf00;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.p-0 {
+  padding: 0!important;
+}
+.logo img {
+  height: 2.5rem;
+  width: auto;
+}
+.bottom-logo img, .flag img {
+  height: 2rem;
+  width: auto;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+
+@media screen and (min-height: 500px) {
+  html {
+    font-size: calc(100vh / 45);
+  }
+}
