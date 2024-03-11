@@ -1,4 +1,11 @@
-# Stats Widgets
+# Live Billiard Stats Widgets
+
+Live billiard stats widget that connect with Google Sheets API and update data in real-time. Widget sizes are dynamic based on the screen size.
+
+## Technical stack
+- **Front-end:** React, TypeScript, Socket.io
+- **Back-end:** Node.js, TypeScript, Express.js, Google Sheets API
+
 
 ## Installation
 
@@ -39,12 +46,6 @@ cd client && npm start
 
 
 ## Deployment
-
-### Build Frontend locally
-There is a memory limit issue with Heroku to build the React app on the server. There should be a setting to fix this. The work-around solution at the moment is to create the front-end build locally
-```
-cd client && npm run build && cd ..
-```
 
 ### Heroku git URL
 
