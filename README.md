@@ -6,6 +6,12 @@ Live billiard stats widget that connect with Google Sheets API and update data i
 - **Front-end:** React, TypeScript, Socket.io
 - **Back-end:** Node.js, TypeScript, Express.js, Google Sheets API
 
+## Demo
+- https://pbs-pgs-vegas-2024-ref-widgets-3090ff3442a7.herokuapp.com/singles-table-1/stats
+- https://pbs-pgs-vegas-2024-ref-widgets-3090ff3442a7.herokuapp.com/singles-table-2/stats
+- https://pbs-pgs-vegas-2024-ref-widgets-3090ff3442a7.herokuapp.com/teams-table-1/stats
+- https://pbs-pgs-vegas-2024-ref-widgets-3090ff3442a7.herokuapp.com/teams-table-2/stats
+
 
 ## Installation
 
